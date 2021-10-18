@@ -1,0 +1,1954 @@
+(function (cjs, an) {
+
+var p; // shortcut to reference prototypes
+var lib={};var ss={};var img={};
+lib.ssMetadata = [];
+
+
+// symbols:
+
+
+
+(lib.baak = function() {
+	this.initialize(img.baak);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,500,500);
+
+
+(lib.bak = function() {
+	this.initialize(img.bak);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,500,500);
+
+
+(lib.bau = function() {
+	this.initialize(img.bau);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,500,500);
+
+
+(lib.bg = function() {
+	this.initialize(img.bg);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1920,1080);
+
+
+(lib.bgvideo = function() {
+	this.initialize(img.bgvideo);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,960,540);
+
+
+(lib.Bitmap10 = function() {
+	this.initialize(img.Bitmap10);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,501,57);
+
+
+(lib.Bitmap28 = function() {
+	this.initialize(img.Bitmap28);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,827,482);
+
+
+(lib.Bitmap9 = function() {
+	this.initialize(img.Bitmap9);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1360,90);
+
+
+(lib.btnMulai = function() {
+	this.initialize(img.btnMulai);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,546,180);
+
+
+(lib.home = function() {
+	this.initialize(img.home);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,546,180);
+
+
+(lib.howto = function() {
+	this.initialize(img.howto);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,300);
+
+
+(lib.info = function() {
+	this.initialize(img.info);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,350,350);
+
+
+(lib.kembali = function() {
+	this.initialize(img.kembali);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,546,180);
+
+
+(lib.KURIKULUM = function() {
+	this.initialize(img.KURIKULUM);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,300);
+
+
+(lib.lanjut = function() {
+	this.initialize(img.lanjut);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,546,180);
+
+
+(lib.mhs = function() {
+	this.initialize(img.mhs);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,300);
+
+
+(lib.pahe = function() {
+	this.initialize(img.pahe);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,300);
+
+
+(lib.perbulan = function() {
+	this.initialize(img.perbulan);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,300);
+
+
+(lib.perkuliahan = function() {
+	this.initialize(img.perkuliahan);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,300);
+
+
+(lib.reguler = function() {
+	this.initialize(img.reguler);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,300);
+
+
+(lib.ujian = function() {
+	this.initialize(img.ujian);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,700,300);// helper functions:
+
+function mc_symbol_clone() {
+	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
+	clone.gotoAndStop(this.currentFrame);
+	clone.paused = this.paused;
+	clone.framerate = this.framerate;
+	return clone;
+}
+
+function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
+	var prototype = cjs.extend(symbol, cjs.MovieClip);
+	prototype.clone = mc_symbol_clone;
+	prototype.nominalBounds = nominalBounds;
+	prototype.frameBounds = frameBounds;
+	return prototype;
+	}
+
+
+(lib.my_youtube = function(options) {
+	this._element = new $.my.youtube(options);
+	this._el = this._element.create();
+	var $this = this;
+	this.addEventListener('added', function() {
+		$this._lastAddedFrame = $this.parent.currentFrame;
+		$this._element.attach($('#dom_overlay_container'));
+	});
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,100,100);
+
+p._tick = _tick;
+p._handleDrawEnd = _handleDrawEnd;
+p._updateVisibility = _updateVisibility;
+
+
+
+(lib.my_youtube = function(options) {
+	this._element = new $.my.youtube(options);
+	this._el = this._element.create();
+	var $this = this;
+	this.addEventListener('added', function() {
+		$this._lastAddedFrame = $this.parent.currentFrame;
+		$this._element.attach($('#dom_overlay_container'));
+	});
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,100,100);
+
+p._tick = _tick;
+p._handleDrawEnd = _handleDrawEnd;
+p._updateVisibility = _updateVisibility;
+
+
+
+(lib.my_youtube = function(options) {
+	this._element = new $.my.youtube(options);
+	this._el = this._element.create();
+	var $this = this;
+	this.addEventListener('added', function() {
+		$this._lastAddedFrame = $this.parent.currentFrame;
+		$this._element.attach($('#dom_overlay_container'));
+	});
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,100,100);
+
+p._tick = _tick;
+p._handleDrawEnd = _handleDrawEnd;
+p._updateVisibility = _updateVisibility;
+
+
+
+(lib.my_youtube = function(options) {
+	this._element = new $.my.youtube(options);
+	this._el = this._element.create();
+	var $this = this;
+	this.addEventListener('added', function() {
+		$this._lastAddedFrame = $this.parent.currentFrame;
+		$this._element.attach($('#dom_overlay_container'));
+	});
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,100,100);
+
+p._tick = _tick;
+p._handleDrawEnd = _handleDrawEnd;
+p._updateVisibility = _updateVisibility;
+
+
+
+(lib.my_youtube = function(options) {
+	this._element = new $.my.youtube(options);
+	this._el = this._element.create();
+	var $this = this;
+	this.addEventListener('added', function() {
+		$this._lastAddedFrame = $this.parent.currentFrame;
+		$this._element.attach($('#dom_overlay_container'));
+	});
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,100,100);
+
+p._tick = _tick;
+p._handleDrawEnd = _handleDrawEnd;
+p._updateVisibility = _updateVisibility;
+
+
+
+(lib.my_youtube = function(options) {
+	this._element = new $.my.youtube(options);
+	this._el = this._element.create();
+	var $this = this;
+	this.addEventListener('added', function() {
+		$this._lastAddedFrame = $this.parent.currentFrame;
+		$this._element.attach($('#dom_overlay_container'));
+	});
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,100,100);
+
+p._tick = _tick;
+p._handleDrawEnd = _handleDrawEnd;
+p._updateVisibility = _updateVisibility;
+
+
+
+(lib.ujian_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.ujian();
+	this.instance.parent = this;
+	this.instance.setTransform(-350,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.ujian_1, new cjs.Rectangle(-350,-150,700,300), null);
+
+
+(lib.Symbol2 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.Bitmap10();
+	this.instance.parent = this;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Symbol2, new cjs.Rectangle(0,0,501,57), null);
+
+
+(lib.Symbol1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.Bitmap9();
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.6607,0.6607);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Symbol1, new cjs.Rectangle(0,0,910.4,65.4), null);
+
+
+(lib.reg = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.reguler();
+	this.instance.parent = this;
+	this.instance.setTransform(-350,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.reg, new cjs.Rectangle(-350,-150,700,300), null);
+
+
+(lib.perbulan_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.perbulan();
+	this.instance.parent = this;
+	this.instance.setTransform(-350,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.perbulan_1, new cjs.Rectangle(-350,-150,700,300), null);
+
+
+(lib.pahe_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.pahe();
+	this.instance.parent = this;
+	this.instance.setTransform(-350,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.pahe_1, new cjs.Rectangle(-350,-150,700,300), null);
+
+
+(lib.next = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.lanjut();
+	this.instance.parent = this;
+	this.instance.setTransform(-273,-90);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.next, new cjs.Rectangle(-273,-90,546,180), null);
+
+
+(lib.MHS = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.mhs();
+	this.instance.parent = this;
+	this.instance.setTransform(-350,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.MHS, new cjs.Rectangle(-350,-150,700,300), null);
+
+
+(lib.kurikulum = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.KURIKULUM();
+	this.instance.parent = this;
+	this.instance.setTransform(-350,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.kurikulum, new cjs.Rectangle(-350,-150,700,300), null);
+
+
+(lib.kuliah = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.perkuliahan();
+	this.instance.parent = this;
+	this.instance.setTransform(-350,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.kuliah, new cjs.Rectangle(-350,-150,700,300), null);
+
+
+(lib.icBau = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.bau();
+	this.instance.parent = this;
+	this.instance.setTransform(-250,-250);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-250,-250,500,500);
+
+
+(lib.icBak = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.bak();
+	this.instance.parent = this;
+	this.instance.setTransform(-250,-250);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-250,-250,500,500);
+
+
+(lib.icBaak = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.baak();
+	this.instance.parent = this;
+	this.instance.setTransform(-250,-250);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-250,-250,500,500);
+
+
+(lib.how = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.howto();
+	this.instance.parent = this;
+	this.instance.setTransform(-350,-150);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.how, new cjs.Rectangle(-350,-150,700,300), null);
+
+
+(lib.home_1 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.home();
+	this.instance.parent = this;
+	this.instance.setTransform(-273,-90);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.home_1, new cjs.Rectangle(-273,-90,546,180), null);
+
+
+(lib.Btn = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.btnMulai();
+	this.instance.parent = this;
+	this.instance.setTransform(-273,-90);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.Btn, new cjs.Rectangle(-273,-90,546,180), null);
+
+
+(lib.back = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.kembali();
+	this.instance.parent = this;
+	this.instance.setTransform(-273,-90);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.back, new cjs.Rectangle(-273,-90,546,180), null);
+
+
+(lib.MATERI = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_42 = function() {
+		/* Stop at This Frame
+		The  timeline will stop/pause at the frame where you insert this code.
+		Can also be used to stop/pause the timeline of movieclips.
+		*/
+		
+		this.stop();
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(42).call(this.frame_42).wait(2));
+
+	// Layer_2
+	this.instance = new lib.Symbol1();
+	this.instance.parent = this;
+	this.instance.setTransform(0.2,-1.25,0.05,0.05,0,0,0,450.1,28);
+	this.instance.alpha = 0;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:455.2,regY:32.7,scaleX:0.1353,scaleY:0.1353,x:0.9,y:-0.6,alpha:0.5658},0).wait(1).to({scaleX:0.2186,scaleY:0.2186,x:1.35,y:-0.2,alpha:0.7695},0).wait(1).to({scaleX:0.2998,scaleY:0.2998,x:1.75,y:0.2,alpha:0.8016},0).wait(1).to({scaleX:0.379,scaleY:0.379,x:2.15,y:0.55,alpha:0.834},0).wait(1).to({scaleX:0.4561,scaleY:0.4561,x:2.55,y:0.9,alpha:0.8656},0).wait(1).to({scaleX:0.5311,scaleY:0.5311,x:2.9,y:1.25,alpha:0.8964},0).wait(1).to({scaleX:0.6042,scaleY:0.6042,x:3.3,y:1.6,alpha:0.9263},0).wait(1).to({scaleX:0.6751,scaleY:0.6751,x:3.65,y:1.95,alpha:0.9553},0).wait(1).to({scaleX:0.744,scaleY:0.744,x:4,y:2.3,alpha:0.9836},0).wait(1).to({scaleX:0.8108,scaleY:0.8108,x:4.35,y:2.55,alpha:1},0).wait(1).to({scaleX:0.8756,scaleY:0.8756,x:4.65,y:2.9},0).wait(1).to({scaleX:0.9383,scaleY:0.9383,x:5,y:3.2},0).wait(1).to({scaleX:0.999,scaleY:0.999,x:5.35,y:3.45},0).wait(1).to({scaleX:1,scaleY:1,x:5.3},0).wait(28).to({_off:true},1).wait(1));
+
+	// Layer_1
+	this.instance_1 = new lib.Symbol2();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(-0.5,88.5,0.05,0.05,0,0,0,245.1,28);
+	this.instance_1.alpha = 0;
+	this.instance_1._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(18).to({_off:false},0).wait(1).to({regX:250.5,regY:28.5,scaleX:0.1346,scaleY:0.1346,x:0.25,y:88.55,alpha:0.5623},0).wait(1).to({scaleX:0.2155,scaleY:0.2155,x:0.7,y:88.6,alpha:0.7685},0).wait(1).to({scaleX:0.2929,scaleY:0.2929,x:1.1,alpha:0.7987},0).wait(1).to({scaleX:0.3667,scaleY:0.3667,x:1.55,y:88.65,alpha:0.829},0).wait(1).to({scaleX:0.4368,scaleY:0.4368,x:1.9,y:88.7,alpha:0.8577},0).wait(1).to({scaleX:0.5034,scaleY:0.5034,x:2.25,y:88.75,alpha:0.885},0).wait(1).to({scaleX:0.5664,scaleY:0.5664,x:2.6,alpha:0.9108},0).wait(1).to({scaleX:0.6257,scaleY:0.6257,x:2.95,y:88.8,alpha:0.9351},0).wait(1).to({scaleX:0.6815,scaleY:0.6815,x:3.2,alpha:0.958},0).wait(1).to({scaleX:0.7337,scaleY:0.7337,x:3.55,y:88.85,alpha:0.9794},0).wait(1).to({scaleX:0.7823,scaleY:0.7823,x:3.8,alpha:0.9993},0).wait(1).to({scaleX:0.8273,scaleY:0.8273,x:4.05,y:88.9,alpha:1},0).wait(1).to({scaleX:0.8686,scaleY:0.8686,x:4.25},0).wait(1).to({scaleX:0.9064,scaleY:0.9064,x:4.45,y:88.95},0).wait(1).to({scaleX:0.9406,scaleY:0.9406,x:4.6},0).wait(1).to({scaleX:0.9712,scaleY:0.9712,x:4.85,y:89},0).wait(1).to({scaleX:0.9982,scaleY:0.9982,x:4.95},0).wait(1).to({scaleX:1,scaleY:1,y:88.95},0).wait(6).to({_off:true},1).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-449.9,-29.2,910.4,146.7);
+
+
+(lib.btnUjian = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.ujian_1();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-378.9,-162.3,757.8,324.6);
+
+
+(lib.btntest = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.Btn();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-295.5,-97.4,591.1,194.8);
+
+
+(lib.btnReguler = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.reg();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-378.9,-162.3,757.8,324.6);
+
+
+(lib.btnPerbulan = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.perbulan_1();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-378.9,-162.3,757.8,324.6);
+
+
+(lib.btnPahe = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.pahe_1();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-378.9,-162.3,757.8,324.6);
+
+
+(lib.btnNext = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.next();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-295.5,-97.4,591.1,194.8);
+
+
+(lib.btnmHS = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.MHS();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-378.9,-162.3,757.8,324.6);
+
+
+(lib.btnKurilkulum = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.kurikulum();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-378.9,-162.3,757.8,324.6);
+
+
+(lib.btnKuliah = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.kuliah();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-378.9,-162.3,757.8,324.6);
+
+
+(lib.btnHow = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.how();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-378.9,-162.3,757.8,324.6);
+
+
+(lib.btnHome = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.home_1();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-295.5,-97.4,591.1,194.8);
+
+
+(lib.btnBau = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.icBau("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.543,0.543);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.57,scaleY:0.57},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-142.4,-142.4,285,285);
+
+
+(lib.btnBak = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.icBak("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.543,0.543);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.57,scaleY:0.57},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-142.4,-142.4,285,285);
+
+
+(lib.btnBack = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.back();
+	this.instance.parent = this;
+	this.instance.setTransform(-0.05,1,0.9823,0.9821);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:1.0825,scaleY:1.0821,x:0,y:0},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-295.5,-97.4,591.1,194.8);
+
+
+(lib.btnBaak = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_1
+	this.instance = new lib.icBaak("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.543,0.543);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({scaleX:0.57,scaleY:0.57},0).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(-142.4,-142.4,285,285);
+
+
+// stage content:
+(lib.Untitled7 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_0 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		this.stop();
+		
+		this.btnGo.addEventListener("click", fl_ClickToGoToAndStopAtFrame.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame()
+		{
+			this.gotoAndPlay(1);
+		}
+		
+		
+		/* Code to get the frame number of the current frame
+		*/
+		
+		var frameNumber = this.currentFrame;
+		console.log(frameNumber)
+	}
+	this.frame_1 = function() {
+		this.stop();
+		/* Click to Go to Frame and Play
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and continues playback from that frame.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndPlayFromFrame.bind(this));
+		
+		function fl_ClickToGoToAndPlayFromFrame()
+		{
+			this.gotoAndPlay(2);
+		}
+	}
+	this.frame_2 = function() {
+		this.stop();
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBAK.addEventListener("click", fl_ClickToGoToAndStopAtFrame_2.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_2()
+		{
+			this.gotoAndStop(3);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBAU.addEventListener("click", fl_ClickToGoToAndStopAtFrame_42.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_42()
+		{
+			this.gotoAndStop(12);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBAAK.addEventListener("click", fl_ClickToGoToAndStopAtFrame_43.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_43()
+		{
+			this.gotoAndStop(13);
+		}
+	}
+	this.frame_3 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnHome.addEventListener("click", fl_ClickToGoToAndStopAtFrame_3.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_3()
+		{
+			this.gotoAndStop(2);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_4.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_4()
+		{
+			this.gotoAndStop(4);
+		}
+	}
+	this.frame_4 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnPahe.addEventListener("click", fl_ClickToGoToAndStopAtFrame_5.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_5()
+		{
+			this.gotoAndStop(5);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnReg.addEventListener("click", fl_ClickToGoToAndStopAtFrame_12.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_12()
+		{
+			this.gotoAndStop(7);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnPerbulan.addEventListener("click", fl_ClickToGoToAndStopAtFrame_14.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_14()
+		{
+			this.gotoAndStop(9);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnHow.addEventListener("click", fl_ClickToGoToAndStopAtFrame_15.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_15()
+		{
+			this.gotoAndStop(10);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnHome.addEventListener("click", fl_ClickToGoToAndStopAtFrame_44.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_44()
+		{
+			this.gotoAndStop(2);
+		}
+	}
+	this.frame_5 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_6.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_6()
+		{
+			this.gotoAndStop(4);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_7.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_7()
+		{
+			this.gotoAndStop(6);
+		}
+	}
+	this.frame_6 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_8.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_8()
+		{
+			this.gotoAndStop(5);
+		}
+	}
+	this.frame_7 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_9.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_9()
+		{
+			this.gotoAndStop(4);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_10.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_10()
+		{
+			this.gotoAndStop(8);
+		}
+	}
+	this.frame_8 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_11.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_11()
+		{
+			this.gotoAndStop(7);
+		}
+	}
+	this.frame_9 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_13.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_13()
+		{
+			this.gotoAndStop(4);
+		}
+	}
+	this.frame_10 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_17.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_17()
+		{
+			this.gotoAndStop(11);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_18.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_18()
+		{
+			this.gotoAndStop(4);
+		}
+	}
+	this.frame_11 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_16.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_16()
+		{
+			this.gotoAndStop(10);
+		}
+	}
+	this.frame_12 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnHome.addEventListener("click", fl_ClickToGoToAndStopAtFrame_19.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_19()
+		{
+			this.gotoAndStop(2);
+		}
+	}
+	this.frame_13 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_20.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_20()
+		{
+			this.gotoAndStop(14);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnHome.addEventListener("click", fl_ClickToGoToAndStopAtFrame_21.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_21()
+		{
+			this.gotoAndStop(2);
+		}
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_47.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_47()
+		{
+			this.gotoAndStop(14);
+		}
+	}
+	this.frame_14 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnKRUI.addEventListener("click", fl_ClickToGoToAndStopAtFrame_22.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_22()
+		{
+			this.gotoAndStop(15);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnHome.addEventListener("click", fl_ClickToGoToAndStopAtFrame_24.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_24()
+		{
+			this.gotoAndStop(2);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnMHS.addEventListener("click", fl_ClickToGoToAndStopAtFrame_25.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_25()
+		{
+			this.gotoAndStop(16);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnKuliah.addEventListener("click", fl_ClickToGoToAndStopAtFrame_26.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_26()
+		{
+			this.gotoAndStop(18);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnUjian.addEventListener("click", fl_ClickToGoToAndStopAtFrame_27.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_27()
+		{
+			this.gotoAndStop(20);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+	}
+	this.frame_15 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_23.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_23()
+		{
+			this.gotoAndStop(14);
+		}
+	}
+	this.frame_16 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_28.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_28()
+		{
+			this.gotoAndStop(14);
+		}
+	}
+	this.frame_17 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_30.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_30()
+		{
+			this.gotoAndStop(14);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_31.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_31()
+		{
+			this.gotoAndStop(18);
+		}
+	}
+	this.frame_18 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_32.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_32()
+		{
+			this.gotoAndStop(17);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_33.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_33()
+		{
+			this.gotoAndStop(19);
+		}
+	}
+	this.frame_19 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_34.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_34()
+		{
+			this.gotoAndStop(18);
+		}
+	}
+	this.frame_20 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_35.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_35()
+		{
+			this.gotoAndStop(14);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_36.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_36()
+		{
+			this.gotoAndStop(21);
+		}
+	}
+	this.frame_21 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_37.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_37()
+		{
+			this.gotoAndStop(20);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_38.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_38()
+		{
+			this.gotoAndStop(22);
+		}
+	}
+	this.frame_22 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_39.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_39()
+		{
+			this.gotoAndStop(21);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnNext.addEventListener("click", fl_ClickToGoToAndStopAtFrame_40.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_40()
+		{
+			this.gotoAndStop(23);
+		}
+	}
+	this.frame_23 = function() {
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btnBack.addEventListener("click", fl_ClickToGoToAndStopAtFrame_41.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_41()
+		{
+			this.gotoAndStop(22);
+		}
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1).call(this.frame_4).wait(1).call(this.frame_5).wait(1).call(this.frame_6).wait(1).call(this.frame_7).wait(1).call(this.frame_8).wait(1).call(this.frame_9).wait(1).call(this.frame_10).wait(1).call(this.frame_11).wait(1).call(this.frame_12).wait(1).call(this.frame_13).wait(1).call(this.frame_14).wait(1).call(this.frame_15).wait(1).call(this.frame_16).wait(1).call(this.frame_17).wait(1).call(this.frame_18).wait(1).call(this.frame_19).wait(1).call(this.frame_20).wait(1).call(this.frame_21).wait(1).call(this.frame_22).wait(1).call(this.frame_23).wait(7));
+
+	// CONTENT
+	this.btnGo = new lib.btntest();
+	this.btnGo.name = "btnGo";
+	this.btnGo.parent = this;
+	this.btnGo.setTransform(620,454.1,0.726,0.726);
+	new cjs.ButtonHelper(this.btnGo, 0, 1, 1);
+
+	this.instance = new lib.MATERI();
+	this.instance.parent = this;
+	this.instance.setTransform(640,236.45);
+
+	this.text = new cjs.Text("Haloo teman teman peserta salam kampus 2021..\nselamat datang pada materi Pembekalan Akademik .. :D", "22px 'Arial Narrow'");
+	this.text.textAlign = "center";
+	this.text.lineHeight = 27;
+	this.text.lineWidth = 298;
+	this.text.parent = this;
+	this.text.setTransform(1056.5,201.6);
+
+	this.instance_1 = new lib.info();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(886,172);
+
+	this.btnNext = new lib.btnNext();
+	this.btnNext.name = "btnNext";
+	this.btnNext.parent = this;
+	this.btnNext.setTransform(1076.95,571,0.5594,0.5594);
+	new cjs.ButtonHelper(this.btnNext, 0, 1, 1);
+
+	this.instance_2 = new lib.my_youtube({'id': 'instance_2', 'src':'https://www.youtube.com/embed/Rg5x5ITUISE', 'alt':'youtube video', 'frameborder':'0', 'allowfullscreen':'allowfullscreen', 'visible':true, 'class':'ui-youtube'});
+
+	this.instance_2.setTransform(464.8,396.45,7.9999,4.4999,0,0,0,50.6,50.1);
+
+	this.text_1 = new cjs.Text("Opening", "bold 26px 'Arial Black'");
+	this.text_1.textAlign = "center";
+	this.text_1.lineHeight = 39;
+	this.text_1.lineWidth = 960;
+	this.text_1.parent = this;
+	this.text_1.setTransform(640,73.45);
+
+	this.btnBAU = new lib.btnBau();
+	this.btnBAU.name = "btnBAU";
+	this.btnBAU.parent = this;
+	this.btnBAU.setTransform(1011.9,414.65,1.3399,1.3399);
+	new cjs.ButtonHelper(this.btnBAU, 0, 1, 1);
+
+	this.btnBAAK = new lib.btnBaak();
+	this.btnBAAK.name = "btnBAAK";
+	this.btnBAAK.parent = this;
+	this.btnBAAK.setTransform(631.85,414.65,1.3399,1.3399);
+	new cjs.ButtonHelper(this.btnBAAK, 0, 1, 1);
+
+	this.btnBAK = new lib.btnBak();
+	this.btnBAK.name = "btnBAK";
+	this.btnBAK.parent = this;
+	this.btnBAK.setTransform(291.85,433.1,1.4759,1.4759);
+	new cjs.ButtonHelper(this.btnBAK, 0, 1, 1);
+
+	this.btnHome = new lib.btnHome();
+	this.btnHome.name = "btnHome";
+	this.btnHome.parent = this;
+	this.btnHome.setTransform(1126,584.3,0.4102,0.4102);
+	new cjs.ButtonHelper(this.btnHome, 0, 1, 1);
+
+	this.instance_3 = new lib.my_youtube({'id': 'instance_3', 'src':'https://www.youtube.com/embed/hBkqUvcPjek', 'alt':'youtube video', 'frameborder':'0', 'allowfullscreen':'allowfullscreen', 'visible':true, 'class':'ui-youtube'});
+
+	this.instance_3.setTransform(464.8,396.45,7.9999,4.4999,0,0,0,50.6,50.1);
+
+	this.btnHow = new lib.btnHow();
+	this.btnHow.name = "btnHow";
+	this.btnHow.parent = this;
+	this.btnHow.setTransform(640.05,532.9,0.5224,0.5224);
+	new cjs.ButtonHelper(this.btnHow, 0, 1, 1);
+
+	this.btnPerbulan = new lib.btnPerbulan();
+	this.btnPerbulan.name = "btnPerbulan";
+	this.btnPerbulan.parent = this;
+	this.btnPerbulan.setTransform(1064,451.85,0.5224,0.5224);
+	new cjs.ButtonHelper(this.btnPerbulan, 0, 1, 1);
+
+	this.btnReg = new lib.btnReguler();
+	this.btnReg.name = "btnReg";
+	this.btnReg.parent = this;
+	this.btnReg.setTransform(640.05,388.5,0.5224,0.5224);
+	new cjs.ButtonHelper(this.btnReg, 0, 1, 1);
+
+	this.btnPahe = new lib.btnPahe();
+	this.btnPahe.name = "btnPahe";
+	this.btnPahe.parent = this;
+	this.btnPahe.setTransform(235,451.85,0.5224,0.5224);
+	new cjs.ButtonHelper(this.btnPahe, 0, 1, 1);
+
+	this.btnBack = new lib.btnBack();
+	this.btnBack.name = "btnBack";
+	this.btnBack.parent = this;
+	this.btnBack.setTransform(177,675.8,0.4102,0.4101);
+	new cjs.ButtonHelper(this.btnBack, 0, 1, 1);
+
+	this.text_2 = new cjs.Text("Apabila sampai dengan Desember 2021 belum bisa melakukan pelunasan, maka akan dilimpahkan ke pembayaran Reguler atau Per Bulan.\n\nBesarnya biaya pendidikan Sistem Paket Hemat berbeda-beda. Sesuai dengan Paket yang berlaku saat Registrasi (Lihat di Buku Pedoman)", "italic bold 25px 'Arial Narrow'");
+	this.text_2.lineHeight = 31;
+	this.text_2.lineWidth = 440;
+	this.text_2.parent = this;
+	this.text_2.setTransform(741,284.7);
+
+	this.instance_4 = new lib.pahe_1();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(640,78.95,0.4873,0.4873);
+
+	this.text_3 = new cjs.Text("SISTEM PEMBAYARAN PAKET HEMAT", "bold 22px 'Arial Black'", "#00435E");
+	this.text_3.textAlign = "center";
+	this.text_3.lineHeight = 33;
+	this.text_3.lineWidth = 480;
+	this.text_3.parent = this;
+	this.text_3.setTransform(325.1,208.2);
+
+	this.text_4 = new cjs.Text("1.\n\n\n2. \n\n\n\n3.", "italic bold 25px 'Arial Narrow'");
+	this.text_4.lineHeight = 31;
+	this.text_4.lineWidth = 31;
+	this.text_4.parent = this;
+	this.text_4.setTransform(85.3,284.7);
+
+	this.text_5 = new cjs.Text("Biaya pendidikan keseluruhan dibayarkan diawal.  \n\nSistem Pembayaran Paket Hemat sudah mencakup : Uang Pengembangan, SPP Pokok, SPP SKS dan Biaya Praktikum.\n\nPelunasan Pembayaran Paket Hemat Max Desember 2021.", "italic bold 25px 'Arial Narrow'");
+	this.text_5.lineHeight = 31;
+	this.text_5.lineWidth = 440;
+	this.text_5.parent = this;
+	this.text_5.setTransform(120.45,284.7);
+
+	this.instance_5 = new lib.reg();
+	this.instance_5.parent = this;
+	this.instance_5.setTransform(640,78.95,0.4873,0.4873);
+
+	this.instance_6 = new lib.perbulan_1();
+	this.instance_6.parent = this;
+	this.instance_6.setTransform(640,78.95,0.4873,0.4873);
+
+	this.instance_7 = new lib.how();
+	this.instance_7.parent = this;
+	this.instance_7.setTransform(640,78.95,0.4873,0.4873);
+
+	this.instance_8 = new lib.my_youtube({'id': 'instance_8', 'src':'https://www.youtube.com/embed/Uq8se-F-2cU', 'alt':'youtube video', 'frameborder':'0', 'allowfullscreen':'allowfullscreen', 'visible':true, 'class':'ui-youtube'});
+
+	this.instance_8.setTransform(464.8,396.45,7.9999,4.4999,0,0,0,50.6,50.1);
+
+	this.instance_9 = new lib.my_youtube({'id': 'instance_9', 'src':'https://www.youtube.com/embed/ni8ojkIiMLo', 'alt':'youtube video', 'frameborder':'0', 'allowfullscreen':'allowfullscreen', 'visible':true, 'class':'ui-youtube'});
+
+	this.instance_9.setTransform(464.8,396.45,7.9999,4.4999,0,0,0,50.6,50.1);
+
+	this.instance_10 = new lib.my_youtube({'id': 'instance_10', 'src':'https://www.youtube.com/embed/uZhbL-QGXKc', 'alt':'youtube video', 'frameborder':'0', 'allowfullscreen':'allowfullscreen', 'visible':true, 'class':'ui-youtube'});
+
+	this.instance_10.setTransform(464.8,396.45,7.9999,4.4999,0,0,0,50.6,50.1);
+
+	this.btnKRUI = new lib.btnKurilkulum();
+	this.btnKRUI.name = "btnKRUI";
+	this.btnKRUI.parent = this;
+	this.btnKRUI.setTransform(825.35,282.4,0.5224,0.5224);
+	new cjs.ButtonHelper(this.btnKRUI, 0, 1, 1);
+
+	this.btnUjian = new lib.btnUjian();
+	this.btnUjian.name = "btnUjian";
+	this.btnUjian.parent = this;
+	this.btnUjian.setTransform(825.35,436.35,0.5224,0.5224);
+	new cjs.ButtonHelper(this.btnUjian, 0, 1, 1);
+
+	this.btnMHS = new lib.btnmHS();
+	this.btnMHS.name = "btnMHS";
+	this.btnMHS.parent = this;
+	this.btnMHS.setTransform(420.3,282.4,0.5224,0.5224);
+	new cjs.ButtonHelper(this.btnMHS, 0, 1, 1);
+
+	this.btnKuliah = new lib.btnKuliah();
+	this.btnKuliah.name = "btnKuliah";
+	this.btnKuliah.parent = this;
+	this.btnKuliah.setTransform(420.3,436.35,0.5224,0.5224);
+	new cjs.ButtonHelper(this.btnKuliah, 0, 1, 1);
+
+	this.instance_11 = new lib.kurikulum();
+	this.instance_11.parent = this;
+	this.instance_11.setTransform(640,78.95,0.4873,0.4873);
+
+	this.instance_12 = new lib.MHS();
+	this.instance_12.parent = this;
+	this.instance_12.setTransform(640,78.95,0.4873,0.4873);
+
+	this.instance_13 = new lib.kuliah();
+	this.instance_13.parent = this;
+	this.instance_13.setTransform(640,78.95,0.4873,0.4873);
+
+	this.instance_14 = new lib.my_youtube({'id': 'instance_14', 'src':'https://www.youtube.com/embed/010dmXgKKOw', 'alt':'youtube video', 'frameborder':'0', 'allowfullscreen':'allowfullscreen', 'visible':true, 'class':'ui-youtube'});
+
+	this.instance_14.setTransform(464.8,396.45,7.9999,4.4999,0,0,0,50.6,50.1);
+
+	this.instance_15 = new lib.ujian_1();
+	this.instance_15.parent = this;
+	this.instance_15.setTransform(640,78.95,0.4873,0.4873);
+
+	this.instance_16 = new lib.Bitmap28();
+	this.instance_16.parent = this;
+	this.instance_16.setTransform(584,327,0.5334,0.5334);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.btnGo}]}).to({state:[{t:this.text_1,p:{text:"Opening",x:640,y:73.45,font:"bold 26px 'Arial Black'",color:"#000000",lineHeight:38.65,lineWidth:960,textAlign:"center"}},{t:this.instance_2},{t:this.btnNext,p:{scaleX:0.5594,scaleY:0.5594,x:1076.95,y:571}},{t:this.instance_1,p:{scaleY:1,y:172}},{t:this.text,p:{x:1056.5,y:201.6,text:"Haloo teman teman peserta salam kampus 2021..\nselamat datang pada materi Pembekalan Akademik .. :D",font:"22px 'Arial Narrow'",lineHeight:26.95,lineWidth:298,textAlign:"center",color:"#000000"}}]},1).to({state:[{t:this.text,p:{x:640,y:73.45,text:"Menu Utama",font:"bold 26px 'Arial Black'",lineHeight:38.65,lineWidth:960,textAlign:"center",color:"#000000"}},{t:this.btnBAK},{t:this.btnBAAK},{t:this.btnBAU}]},1).to({state:[{t:this.text_1,p:{text:"INTRO BAK",x:640,y:73.45,font:"bold 26px 'Arial Black'",color:"#000000",lineHeight:38.65,lineWidth:960,textAlign:"center"}},{t:this.instance_1,p:{scaleY:0.7243,y:171}},{t:this.instance_3},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1126,y:474.7}},{t:this.btnHome,p:{x:1126,y:584.3}},{t:this.text,p:{x:1056.5,y:201.6,text:"Biro Administrasi Keuangan\n(BAK)\n\nmengurusi segala kepentingan administrasi keuangan.",font:"22px 'Arial Narrow'",lineHeight:26.95,lineWidth:298,textAlign:"center",color:"#000000"}}]},1).to({state:[{t:this.btnHome,p:{x:640.05,y:620.7}},{t:this.text_1,p:{text:"JENIS PEMBAYARAN",x:640,y:73.45,font:"bold 26px 'Arial Black'",color:"#000000",lineHeight:38.65,lineWidth:960,textAlign:"center"}},{t:this.btnPahe},{t:this.btnReg},{t:this.btnPerbulan},{t:this.text,p:{x:640,y:169.05,text:"STMIK Sinar Nusantara Surakarta menyediakan tiga jenis pembayaran, yaitu sistem paket hemat, sistem reguler, dan sistem cicilan per bulan. \n\nSehingga mahasiswa dapat memilih jenis pembayaran yang sesuai dengan kebutuhan masing masing.",font:"22px 'Arial Narrow'",lineHeight:26.95,lineWidth:731,textAlign:"center",color:"#000000"}},{t:this.btnHow}]},1).to({state:[{t:this.text_5,p:{text:"Biaya pendidikan keseluruhan dibayarkan diawal.  \n\nSistem Pembayaran Paket Hemat sudah mencakup : Uang Pengembangan, SPP Pokok, SPP SKS dan Biaya Praktikum.\n\nPelunasan Pembayaran Paket Hemat Max Desember 2021."}},{t:this.text_4,p:{text:"1.\n\n\n2. \n\n\n\n3."}},{t:this.text_3,p:{text:"SISTEM PEMBAYARAN PAKET HEMAT"}},{t:this.instance_4},{t:this.text_2,p:{x:741,y:284.7,text:"Apabila sampai dengan Desember 2021 belum bisa melakukan pelunasan, maka akan dilimpahkan ke pembayaran Reguler atau Per Bulan.\n\nBesarnya biaya pendidikan Sistem Paket Hemat berbeda-beda. Sesuai dengan Paket yang berlaku saat Registrasi (Lihat di Buku Pedoman)",lineWidth:440,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"KETENTUAN SISTEM PEMBAYARAN PAKET HEMAT :",x:945.65,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:480,textAlign:"center"}},{t:this.text,p:{x:705.85,y:284.7,text:"1.\n\n\n\n\n2. ",font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1094.2,y:675.8}},{t:this.btnBack}]},1).to({state:[{t:this.instance_4},{t:this.text_2,p:{x:292.5,y:259.4,text:"DIII lama Studi 3 tahun ( 6 semester), Strata 1 lama studi 4 tahun ( 8 semester).\n\nMasa berlaku Paket Hemat tertera pada Kartu Paket Hemat . Kartu Paket Hemat diberikan setelah pembayaran lunas.\n\nApabila lama studi melebihi ketentuan, maka kelebihan semester  akan dikenakan SPP Pokok  saja. Besarnya SPP Pokok  sesuai tahun angkatan.\nTahun 2021 besarnya SPP Pokok : Rp. 850.000\n",lineWidth:729,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"MASA BERLAKU PAKET HEMAT",x:640,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:765,textAlign:"center"}},{t:this.text,p:{x:257.35,y:259.4,text:"1.\n\n\n2. \n\n\n3. ",font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnBack}]},1).to({state:[{t:this.text_5,p:{text:"Pembayaran dilakukan setiap semester.\nTerdiri dari :\n\nUang Pengembangan (lihat Tabel Buku Pedoman Akademik)\nSPP Pokok         : Rp.  850.000\nSPP SKS            : Rp.   70.000 / sks\nBy Praktikum    : Rp.  300.000 / semester"}},{t:this.text_4,p:{text:"\n\n\n1.\n\n2.\n3.\n4."}},{t:this.text_3,p:{text:"SISTEM PEMBAYARAN REGULER"}},{t:this.instance_5},{t:this.text_2,p:{x:741,y:284.7,text:"SPP Pokok dibayarkan setiap  awal semester\n\nSPP SKS dibayarkan setiap menjelang             Ujian Mid Semester.\n\nBiaya Praktikum dibayarkan setiap menjelang        Ujian Akhir  Semester.\n",lineWidth:440,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"PELAKSANAAN PEMBAYARAN :",x:945.65,y:208.2,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:480,textAlign:"center"}},{t:this.text,p:{x:705.85,y:284.7,text:"1.\n\n2.\n\n\n3. ",font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1094.2,y:675.8}},{t:this.btnBack}]},1).to({state:[{t:this.instance_5},{t:this.text_2,p:{x:292.5,y:259.4,text:"Uang Pengembangan dibayarakan 3 kali cicilan, yaitu :\n\nCicilan 1: 60 %  dibayarkan saat registrasi awal.\nCicilan 2 : 25 %   dibayarkan menjelang ujian mid semester #1\nCicilan 3 : 15 % dibayarkan awal semester #2.\n",lineWidth:729,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"CARA PEMBAYARAN SISTEM REGULER",x:640,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:765,textAlign:"center"}},{t:this.text,p:{x:257.35,y:259.4,text:"\n\n1.\n2.\n3.",font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnBack}]},1).to({state:[{t:this.text_5,p:{text:" Sistem Pembayaran ini meliputi :\n\nUang Pengembangan  (Lihat Tabel pada Buku Pedoman Akademik).\nSPP Perbulan sebesar       Rp. 400.000\nBiaya Praktikum sebesar  Rp. 300.000 / semester"}},{t:this.text_4,p:{text:"\n\n1.\n\n2.\n3."}},{t:this.text_3,p:{text:"SISTEM PEMBAYARAN PER BULAN"}},{t:this.instance_6},{t:this.text_2,p:{x:741,y:284.7,text:"Uang Pengembangan dicicil 3 kali\n\nCicilan 1 : 60 %  dibayarkan saat registrasi awal.\nCicilan 2 : 25 %   dibayarkan menjelang ujian mid  semester #1\nCicilan : 15 % dibayarkan awal semester #2.\nSPP per Bulan dibayarkan setiap bulan mulai tanggal 1 s/d 10.\nBiaya Praktikum dibayarkan menjelang ujian akhir semester.",lineWidth:441,font:"italic bold 23px 'Arial Narrow'",lineHeight:34.35}},{t:this.text_1,p:{text:"CARA PEMBAYARAN ",x:945.65,y:208.2,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:480,textAlign:"center"}},{t:this.text,p:{x:705.85,y:284.7,text:"\n\n1.\n2.\n\n3. \n\n\n4.",font:"italic bold 23px 'Arial Narrow'",lineHeight:34.35,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnBack}]},1).to({state:[{t:this.instance_1,p:{scaleY:0.7243,y:171}},{t:this.instance_8},{t:this.text,p:{x:1056.5,y:201.6,text:"Video pendek mengenai pembayaran di \nSTMIK Sinar Nusantara",font:"22px 'Arial Narrow'",lineHeight:26.95,lineWidth:298,textAlign:"center",color:"#000000"}},{t:this.instance_7},{t:this.btnBack},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1094.2,y:675.8}}]},1).to({state:[{t:this.text_5,p:{text:"Loket Keuangan STMIK Sinar Nusantara.\nPembayaran yang bisa dilakukan di loket :\n\nPembayaran Registrasi Awal Khusus  Mahasiswa Baru\n\nPembayaran Ujian Susulan, Ujian TA / Skripsi,   Cuti Kuliah, Alih Jalur, SPP per bulan.\n"}},{t:this.text_4,p:{text:"\n\n\n1.\n\n\n2."}},{t:this.text_3,p:{text:"TEMPAT PEMBAYARAN"}},{t:this.instance_6},{t:this.text_2,p:{x:741,y:284.7,text:"Untuk Pembayaran Uang Pengembangan #2 dan #3, SPP Pokok, SPP SKS dan Biaya Praktikum melalui  Bank yang telah ditunjuk yaitu :\n\nBANK BUKOPIN\n",lineWidth:441,font:"italic bold 23px 'Arial Narrow'",lineHeight:34.35}},{t:this.text_1,p:{text:"BANK YANG DITUNJUK",x:945.65,y:208.2,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:480,textAlign:"center"}},{t:this.text,p:{x:705.85,y:284.7,text:"\n\n\n\n1.",font:"italic bold 23px 'Arial Narrow'",lineHeight:34.35,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnBack}]},1).to({state:[{t:this.text_1,p:{text:"INTRO BAU",x:640,y:73.45,font:"bold 26px 'Arial Black'",color:"#000000",lineHeight:38.65,lineWidth:960,textAlign:"center"}},{t:this.instance_1,p:{scaleY:0.7243,y:171}},{t:this.instance_9},{t:this.btnHome,p:{x:1126,y:584.3}},{t:this.text,p:{x:1056.5,y:201.6,text:"Biro Administrasi Umum\n(BAU)",font:"22px 'Arial Narrow'",lineHeight:26.95,lineWidth:298,textAlign:"center",color:"#000000"}}]},1).to({state:[{t:this.text_1,p:{text:"INTRO BAAK",x:640,y:73.45,font:"bold 26px 'Arial Black'",color:"#000000",lineHeight:38.65,lineWidth:960,textAlign:"center"}},{t:this.instance_1,p:{scaleY:0.7243,y:171}},{t:this.instance_10},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1126,y:474.7}},{t:this.btnHome,p:{x:1126,y:584.3}},{t:this.text,p:{x:1056.5,y:201.6,text:"Biro Administrasi Akademik\n(BAAK)\n\nmengurusi segala kepentingan administrasi akademik.",font:"22px 'Arial Narrow'",lineHeight:26.95,lineWidth:298,textAlign:"center",color:"#000000"}}]},1).to({state:[{t:this.btnHome,p:{x:640.05,y:620.7}},{t:this.text,p:{x:640,y:73.45,text:"BAAK",font:"bold 26px 'Arial Black'",lineHeight:38.65,lineWidth:960,textAlign:"center",color:"#000000"}},{t:this.btnKuliah},{t:this.btnMHS},{t:this.btnUjian},{t:this.btnKRUI}]},1).to({state:[{t:this.instance_11},{t:this.text_2,p:{x:292.5,y:259.4,text:"Kurikulum Inti : Nasional (40 – 80 %)\n\nKurikulum Institusional : Kompetensi masing-masing Progdi di masing-masing Perguruan Tinggi (20 – 60 %)\n\nKelompok Matakuliah :\nMPK : Mtkl. Pengembangan Kepribadian\nMKK : Mtkl. Keilmuan dan ketrampilan\nMKB : Mtkl Keahlian berkarya\nMPB  : Mtkl Perilaku berkarya\nMBB : Mtkl. Berkehidupan Bermasyarakat\n",lineWidth:729,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"KURIKULUM BERBASIS KOPETENSI",x:640,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:765,textAlign:"center"}},{t:this.text,p:{x:257.35,y:259.4,text:"1.\n\n2.\n\n\n3.",font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnBack}]},1).to({state:[{t:this.instance_12},{t:this.text_1,p:{text:"NIM = Nomer Induk Mahasiswa\n xx.y.zzzzz -> 20.5.00001\n\nXX  : kode angkatan\nY    : Kode Progdi  ( 1: MI. 2: KA. 3: TI 4: SI 5: TI*)\nZ    : Nomer urut    (  00001 – 00??? )\n",x:633.2,y:259.4,font:"italic bold 25px 'Arial Narrow'",color:"#000000",lineHeight:30.7,lineWidth:729,textAlign:"center"}},{t:this.text,p:{x:640,y:200.1,text:"NIM MAHASISWA",font:"bold 22px 'Arial Black'",lineHeight:33,lineWidth:765,textAlign:"center",color:"#00435E"}},{t:this.btnBack}]},1).to({state:[{t:this.instance_13},{t:this.text_2,p:{x:292.5,y:259.4,text:"Satuan unt menyatakan beban studi mhs. \n\n50   menit tatap muka dikelas (teori)\n60   menit aktifitas terstruktur di bawah   koordinasi dosen.\n60   menit kegiatan mandiri unt pendalaman materi perkuliahan ",lineWidth:729,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"SISTEM SKS",x:640,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:765,textAlign:"center"}},{t:this.btnBack},{t:this.text,p:{x:257.35,y:259.4,text:"\n\n1.\n2.\n3.",font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1126,y:669.5}}]},1).to({state:[{t:this.instance_1,p:{scaleY:1.0862,y:171}},{t:this.instance_14},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1126,y:669.5}},{t:this.text_1,p:{text:"Pengisian KRS\n\nAkhir semester sebelum semester berikutnya.\n\nKonsultasi Pembimbing Akademik (Wali)\n\nMembawa : KRS lama, Rekap Nilai/KHS, Konversi Nilai (bagi mhs  Pindahan / Transfer)  ",x:928.3,y:201.6,font:"22px 'Arial Narrow'",color:"#000000",lineHeight:26.95,lineWidth:298,textAlign:""}},{t:this.instance_13},{t:this.text,p:{x:901.35,y:201.6,text:"\n\n1.\n\n\n2.\n\n\n3.",font:"22px 'Arial Narrow'",lineHeight:26.95,lineWidth:20,textAlign:"",color:"#000000"}},{t:this.btnBack}]},1).to({state:[{t:this.instance_13},{t:this.text_2,p:{x:292.5,y:259.4,text:"IP  < 2.0 : 18 SKS\n2.0 ≤ IP < 2.5: 20 SKS\n2.5 ≤ IP < 3.0: 22 SKS\nIP   ≥ 3.0: 24 SKS\n\n Total SKS mak. 24 SKS\nMatakuliah Wajib & Pilihan",lineWidth:729,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"JUMLAH SKS MAKSIMAL PER SEMESTER",x:640,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:765,textAlign:"center"}},{t:this.btnBack},{t:this.text,p:{x:257.35,y:259.4,text:"",font:"25px 'ArialNarrow-BoldItalic'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}}]},1).to({state:[{t:this.instance_15},{t:this.text_2,p:{x:292.5,y:259.4,text:" Dua kali Ujian Terjadual oleh akademik\n     - Ujian Tengah Semester (UTS / MID)\n     - Ujian Akhir Semester (UAS)\nUjian Tak Terjadual dan tugas diatur oleh dosen pengampu matakuliah.\nPada saat pelaksanaan ujian terjadual mahasiswa wajib membawa KRS, Kartu Ujian, dan memakai Jas Almamater.\nKartu Ujian dapat diambil sesuai waktu yang ditentukan setelah memenuhi semua syarat administrasi.(dibuktikan dengan kartu paket hemat, kwitansi pembayaran SPP, KRS)\nUntuk Ujian Akhir disyaratkan KRS sudah dievaluasi oleh Dosen Pengampu dan Pembimbing Akademik.\n",lineWidth:729,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"SISTEM UJIAN",x:640,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:765,textAlign:"center"}},{t:this.btnBack},{t:this.text,p:{x:257.35,y:259.4,text:"1.\n\n\n2.\n3.\n\n4.\n\n\n5.",font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1126,y:669.5}}]},1).to({state:[{t:this.instance_15},{t:this.text_2,p:{x:292.5,y:259.4,text:"20 % tugas, ujian tak terjadual, dan keaktifan mahasiswa\n30 % Ujian Tengah Semester\n50 % Ujian Akhir Semester\n",lineWidth:729,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"SISTEM PENILAIAN",x:640,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:765,textAlign:"center"}},{t:this.btnBack},{t:this.text,p:{x:257.35,y:259.4,text:"",font:"25px 'ArialNarrow-BoldItalic'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1126,y:669.5}},{t:this.instance_16}]},1).to({state:[{t:this.instance_15},{t:this.text_2,p:{x:292.5,y:259.4,text:"Mahasiswa dapat mencetak daftar nilai KHS dari web akademik (akademik.sinus.ac.id)\n\nUntuk keperluan tertentu mahasiswa berhak mendapatkan 1 lembar daftar nilai setiap akhir semester yang dapat di fotocopy dan dilegalisir. \nPermintaan lembar daftar nilai / legalisir diikenai biaya administrasi. ",lineWidth:729,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"DAFTAR NILAI",x:640,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:765,textAlign:"center"}},{t:this.btnBack},{t:this.text,p:{x:257.35,y:259.4,text:"1.\n\n\n2.",font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}},{t:this.btnNext,p:{scaleX:0.4102,scaleY:0.4102,x:1126,y:669.5}}]},1).to({state:[{t:this.instance_15},{t:this.text_2,p:{x:292.5,y:259.4,text:"Ujian Susulan UTS & UAS\nUjian susulan diatur oleh Akademik.\nPendaftaran paling lambat 1 minggu setelah jadual ujian berakhir.\nAda Administrasi Ujian Susulan.\nUntuk Mtkl yang diujiakn diluar pelaksanaan jadwal tdl bisa mengajukan ujian susulan kecualai atas rekomendasi dosen pengampu. \n ",lineWidth:729,font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7}},{t:this.text_1,p:{text:"UJIAN SUSULAN",x:640,y:200.1,font:"bold 22px 'Arial Black'",color:"#00435E",lineHeight:33,lineWidth:765,textAlign:"center"}},{t:this.btnBack},{t:this.text,p:{x:257.35,y:259.4,text:"1.\n2.\n3.\n4.\n5.",font:"italic bold 25px 'Arial Narrow'",lineHeight:30.7,lineWidth:31,textAlign:"",color:"#000000"}}]},1).to({state:[]},1).wait(6));
+
+	// Layer_3
+	this.instance_17 = new lib.bgvideo();
+	this.instance_17.parent = this;
+	this.instance_17.setTransform(60,171,0.8333,0.8333);
+	this.instance_17._off = true;
+
+	this.instance_18 = new lib.info();
+	this.instance_18.parent = this;
+	this.instance_18.setTransform(688,178,1.4748,1.3199);
+	this.instance_18._off = true;
+
+	this.instance_19 = new lib.info();
+	this.instance_19.parent = this;
+	this.instance_19.setTransform(67,178,1.4748,1.3199);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_17}]},1).to({state:[]},1).to({state:[{t:this.instance_17}]},1).to({state:[]},1).to({state:[{t:this.instance_19},{t:this.instance_18}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19},{t:this.instance_18}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19},{t:this.instance_18}]},1).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_19},{t:this.instance_18}]},1).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_17}]},1).to({state:[]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_18}]},1).to({state:[]},1).wait(6));
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(1).to({_off:false},0).to({_off:true},1).wait(1).to({_off:false},0).to({_off:true},1).wait(6).to({_off:false},0).to({_off:true},1).wait(1).to({_off:false},0).wait(1).to({_off:true},1).wait(4).to({_off:false},0).to({_off:true},1).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(5).to({_off:false},0).wait(1).to({scaleX:2.4376,x:213,y:163},0).wait(1).to({scaleX:1.4748,x:688,y:178},0).wait(1).to({scaleX:2.4376,x:213,y:163},0).wait(1).to({scaleX:1.4748,x:688,y:178},0).to({_off:true},1).wait(1).to({_off:false},0).to({_off:true},1).wait(3).to({_off:false,scaleX:2.4376,x:213,y:163},0).wait(2).to({_off:true},1).wait(1).to({_off:false},0).wait(4).to({_off:true},1).wait(6));
+
+	// BG
+	this.instance_20 = new lib.bg();
+	this.instance_20.parent = this;
+	this.instance_20.setTransform(0,0,0.6667,0.6667);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(30));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(640,360,640,360);
+// library properties:
+lib.properties = {
+	id: '231DF68851D8754499E7B6B738E5AFC1',
+	width: 1280,
+	height: 720,
+	fps: 30,
+	color: "#FFFFFF",
+	opacity: 1.00,
+	manifest: [
+		{src:"images/baak.png", id:"baak"},
+		{src:"images/bak.png", id:"bak"},
+		{src:"images/bau.png", id:"bau"},
+		{src:"images/bg2.jpg", id:"bg"},
+		{src:"images/bgvideo.png", id:"bgvideo"},
+		{src:"images/salkam2.png", id:"Bitmap10"},
+		{src:"images/Bitmap28.png", id:"Bitmap28"},
+		{src:"images/pembekalan2.png", id:"Bitmap9"},
+		{src:"images/btnMulai.png", id:"btnMulai"},
+		{src:"images/home.png", id:"home"},
+		{src:"images/howto.png", id:"howto"},
+		{src:"images/info.png", id:"info"},
+		{src:"images/kembali.png", id:"kembali"},
+		{src:"images/KURIKULUM.png", id:"KURIKULUM"},
+		{src:"images/lanjut.png", id:"lanjut"},
+		{src:"images/mhs.png", id:"mhs"},
+		{src:"images/pahe.png", id:"pahe"},
+		{src:"images/perbulan.png", id:"perbulan"},
+		{src:"images/perkuliahan.png", id:"perkuliahan"},
+		{src:"images/reguler.png", id:"reguler"},
+		{src:"images/ujian.png", id:"ujian"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
+		{src:"components/mycomponents/src/myyoutube.js", id:"my.youtube"},
+		{src:"components/mycomponents/src/myyoutube.js", id:"my.youtube"},
+		{src:"components/mycomponents/src/myyoutube.js", id:"my.youtube"},
+		{src:"components/mycomponents/src/myyoutube.js", id:"my.youtube"},
+		{src:"components/mycomponents/src/myyoutube.js", id:"my.youtube"},
+		{src:"components/mycomponents/src/myyoutube.js", id:"my.youtube"}
+	],
+	preloads: []
+};
+
+
+
+// bootstrap callback support:
+
+(lib.Stage = function(canvas) {
+	createjs.Stage.call(this, canvas);
+}).prototype = p = new createjs.Stage();
+
+p.setAutoPlay = function(autoPlay) {
+	this.tickEnabled = autoPlay;
+}
+p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
+p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+
+p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+
+an.bootcompsLoaded = an.bootcompsLoaded || [];
+if(!an.bootstrapListeners) {
+	an.bootstrapListeners=[];
+}
+
+an.bootstrapCallback=function(fnCallback) {
+	an.bootstrapListeners.push(fnCallback);
+	if(an.bootcompsLoaded.length > 0) {
+		for(var i=0; i<an.bootcompsLoaded.length; ++i) {
+			fnCallback(an.bootcompsLoaded[i]);
+		}
+	}
+};
+
+an.compositions = an.compositions || {};
+an.compositions['231DF68851D8754499E7B6B738E5AFC1'] = {
+	getStage: function() { return exportRoot.getStage(); },
+	getLibrary: function() { return lib; },
+	getSpriteSheet: function() { return ss; },
+	getImages: function() { return img; }
+};
+
+an.compositionLoaded = function(id) {
+	an.bootcompsLoaded.push(id);
+	for(var j=0; j<an.bootstrapListeners.length; j++) {
+		an.bootstrapListeners[j](id);
+	}
+}
+
+an.getComposition = function(id) {
+	return an.compositions[id];
+}
+
+
+an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers) {		
+	var lastW, lastH, lastS=1;		
+	window.addEventListener('resize', resizeCanvas);		
+	resizeCanvas();		
+	function resizeCanvas() {			
+		var w = lib.properties.width, h = lib.properties.height;			
+		var iw = window.innerWidth, ih=window.innerHeight;			
+		var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+		if(isResp) {                
+			if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+				sRatio = lastS;                
+			}				
+			else if(!isScale) {					
+				if(iw<w || ih<h)						
+					sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==1) {					
+				sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==2) {					
+				sRatio = Math.max(xRatio, yRatio);				
+			}			
+		}			
+		domContainers[0].width = w * pRatio * sRatio;			
+		domContainers[0].height = h * pRatio * sRatio;			
+		domContainers.forEach(function(container) {				
+			container.style.width = w * sRatio + 'px';				
+			container.style.height = h * sRatio + 'px';			
+		});			
+		stage.scaleX = pRatio*sRatio;			
+		stage.scaleY = pRatio*sRatio;			
+		lastW = iw; lastH = ih; lastS = sRatio;            
+		stage.tickOnUpdate = false;            
+		stage.update();            
+		stage.tickOnUpdate = true;		
+	}
+}
+function _updateVisibility(evt) {
+	if((this.getStage() == null || this._off || this._lastAddedFrame != this.parent.currentFrame) && this._element) {
+		this._element.detach();
+		stage.removeEventListener('drawstart', this._updateVisibilityCbk);
+		this._updateVisibilityCbk = false;
+	}
+}
+function _handleDrawEnd(evt) {
+	var props = this.getConcatenatedDisplayProps(this._props), mat = props.matrix;
+	var tx1 = mat.decompose(); var sx = tx1.scaleX; var sy = tx1.scaleY;
+	var dp = window.devicePixelRatio || 1; var w = this.nominalBounds.width * sx; var h = this.nominalBounds.height * sy;
+	mat.tx/=dp;mat.ty/=dp; mat.a/=(dp*sx);mat.b/=(dp*sx);mat.c/=(dp*sy);mat.d/=(dp*sy);
+	this._element.setProperty('transform-origin', this.regX + 'px ' + this.regY + 'px');
+	var x = (mat.tx + this.regX*mat.a + this.regY*mat.c - this.regX);
+	var y = (mat.ty + this.regX*mat.b + this.regY*mat.d - this.regY);
+	var tx = 'matrix(' + mat.a + ',' + mat.b + ',' + mat.c + ',' + mat.d + ',' + x + ',' + y + ')';
+	this._element.setProperty('transform', tx);
+	this._element.setProperty('width', w);
+	this._element.setProperty('height', h);
+	this._element.update();
+}
+
+function _tick(evt) {
+	var stage = this.getStage();
+	stage&&stage.on('drawend', this._handleDrawEnd, this, true);
+	if(!this._updateVisibilityCbk) {
+		this._updateVisibilityCbk = stage.on('drawstart', this._updateVisibility, this, false);
+	}
+}
+
+
+})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+var createjs, AdobeAn;
